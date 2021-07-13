@@ -1,3 +1,4 @@
+import { Flex } from '@chakra-ui/react'
 import Head from 'next/head'
 import React from 'react'
 import Navbar from '../components/Navbar'
@@ -12,6 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
+      <Flex>
+
+      </Flex>
     </>
   )
 }
